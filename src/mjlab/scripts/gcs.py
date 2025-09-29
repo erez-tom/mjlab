@@ -18,6 +18,11 @@ ASSETS = {
     "sha256": "f08d15d4b5bb605e17b6928ccdb44ae6ce7bf2038111e8b145f12a176cd096d4",
     "path": CACHE_DIR / "demo_motion.npz",
   },
+  "go1_demo_ckpt.pt": {
+    "url": "https://storage.googleapis.com/mjlab_beta/go1_ckpt_1900.pt",
+    "sha256": "672504005c7977d3aa949f1a14fc011de9a4795b7460de652b08857dc6359d81",
+    "path": CACHE_DIR / "go1_demo_ckpt.pt",
+  },
 }
 
 

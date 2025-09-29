@@ -43,8 +43,8 @@ def run_play(
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
   print(f"[INFO]: Using device: {device}")
 
-  if checkpoint_file is not None and motion_file is None:
-    raise ValueError("Must provide `motion_file` if using `checkpoint_file`.")
+  # if checkpoint_file is not None and motion_file is None:
+  #   raise ValueError("Must provide `motion_file` if using `checkpoint_file`.")
 
   env_cfg = cast(
     ManagerBasedRlEnvCfg, load_cfg_from_registry(task, "env_cfg_entry_point")
